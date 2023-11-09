@@ -215,7 +215,6 @@
   flex-direction: column;
   gap: 6px;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .content__video-card-title {
@@ -223,6 +222,9 @@
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .content__video-card-description {
@@ -230,6 +232,11 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
+}
+
+.content__video-card-thumbnail{
+  min-width: 194px;
+  object-fit: cover;
 }
 
 .more-button {
