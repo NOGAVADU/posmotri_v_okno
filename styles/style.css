@@ -145,7 +145,7 @@
 }
 
 .content__details {
-  height: 534px;
+  min-height: 534px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -192,7 +192,7 @@
   text-decoration-thickness: 1px;
 }
 
-.content__card-link{
+.content__card-link:focus{
   outline: none;
 }
 
